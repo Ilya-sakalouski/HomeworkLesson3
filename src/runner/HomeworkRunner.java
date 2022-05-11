@@ -12,6 +12,7 @@ import src.task2_4.Task2_4;
 import src.task2_5.Task2_5;
 import src.task2_6.Task2_6;
 import src.task3_1.Task3_1;
+import src.task3_3.Task3_3;
 
 public class HomeworkRunner {
     public static void main(String[] args) {
@@ -76,6 +77,12 @@ public class HomeworkRunner {
         System.out.println("TASK 3_1 : ");
         Task3_1 task3_1 = new Task3_1();
         task3_1.getMeAnswer3_1();
+        System.out.println('\n');
+
+
+        System.out.println("TASK 3_3 : ");
+        Task3_3 task3_3 = new Task3_3();
+        task3_3.getMeAnswer3_3();
         System.out.println('\n');
 
     }
